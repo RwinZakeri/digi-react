@@ -1,0 +1,701 @@
+{
+  "mega": [
+    {
+      "id": 1,
+      "topic": "موبایل",
+      "subMenu": [
+        {
+          "id": 1,
+          "group": [
+            {
+              "id": 1,
+              "header": "برندهای مختلف گوشی موبایل",
+              "link": [
+                { "id": 1, "text": "گوشی آیفون" },
+                { "id": 2, "text": "گوشی سامسونگ" },
+                { "id": 3, "text": "گوشی ال جی" },
+                { "id": 4, "text": "گوشی شیائومی" },
+                { "id": 5, "text": "گوشی نوکیا" },
+                { "id": 6, "text": "گوشی موتورلا" },
+                { "id": 7, "text": "گوشی ناتینگ" },
+                { "id": 8, "text": "گوشی هوآوی" },
+                { "id": 9, "text": "گوشی آنر" },
+                { "id": 10, "text": "گوشی جی پلاس" },
+                { "id": 11, "text": "گوشی ریلمی" },
+                { "id": 12, "text": "گوشی گوگل" },
+                { "id": 13, "text": "گوشی اوپو" },
+                { "id": 14, "text": "گوشی وان پلاس" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "group": [
+            {
+              "id": 1,
+              "header": "گوشی براساس قیمت",
+              "link": [
+                { "id": 1, "text": "گوشی ارزان" },
+                { "id": 2, "text": "گوشی میان رده" },
+                { "id": 3, "text": "گوشی بالای 2 میلیون" },
+                { "id": 4, "text": "گوشی بالای 5 میلیون" },
+                { "id": 5, "text": "گوشی بالای 7 میلیون" },
+                { "id": 6, "text": "گوشی بالای 9 میلیون" },
+                { "id": 7, "text": "گوشی بالای 12 میلیون" }
+              ]
+            },
+            {
+              "id": 2,
+              "header": "گوشی براساس قیمت",
+              "link": [
+                { "id": 1, "text": "گوشی آیفون" },
+                { "id": 2, "text": "گوشی سامسونگ" },
+                { "id": 3, "text": "گوشی ال جی" }
+              ]
+            },
+            {
+              "id": 3,
+              "header": "گوشی براساس عملکرد",
+              "link": [
+                { "id": 1, "text": "گوشی پرچمدار" },
+                { "id": 2, "text": "5G گوشی" },
+                { "id": 3, "text": "گوشی گیمینگ" },
+                { "id": 4, "text": "گوشی اقتصادی" },
+                { "id": 5, "text": "گوشی دانش آموزی" },
+                { "id": 6, "text": "گوشی میان رده" },
+                { "id": 7, "text": "گوشی مناسب عکاسی" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "group": [
+            {
+              "id": 1,
+              "header": "گوشی براساس قیمت",
+              "link": [
+                { "id": 1, "text": "گوشی ارزان" },
+                { "id": 2, "text": "گوشی میان رده" },
+                { "id": 3, "text": "گوشی بالای 2 میلیون" },
+                { "id": 4, "text": "گوشی بالای 5 میلیون" },
+                { "id": 5, "text": "گوشی بالای 7 میلیون" },
+                { "id": 6, "text": "گوشی بالای 9 میلیون" },
+                { "id": 7, "text": "گوشی بالای 12 میلیون" }
+              ]
+            },
+            {
+              "id": 2,
+              "header": "گوشی براساس قیمت",
+              "link": [
+                { "id": 1, "text": "گوشی آیفون" },
+                { "id": 2, "text": "گوشی سامسونگ" },
+                { "id": 3, "text": "گوشی ال جی" }
+              ]
+            },
+            {
+              "id": 3,
+              "header": "گوشی براساس عملکرد",
+              "link": [
+                { "id": 1, "text": "گوشی پرچمدار" },
+                { "id": 2, "text": "5G گوشی" },
+                { "id": 3, "text": "گوشی گیمینگ" },
+                { "id": 4, "text": "گوشی اقتصادی" },
+                { "id": 5, "text": "گوشی دانش آموزی" },
+                { "id": 6, "text": "گوشی میان رده" },
+                { "id": 7, "text": "گوشی مناسب عکاسی" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "topic": "دیجیتال",
+      "subMenu": [
+        {
+          "id": 1,
+          "group": [
+            {
+              "id": 1,
+              "header": "لپ تاپ",
+              "link": [
+                { "id": 1, "text": "لپ تاپ ایسوس" },
+                { "id": 2, "text": "لپ تاپ سامسونگ" },
+                { "id": 3, "text": "لپ تاپ اچ پی" },
+                { "id": 4, "text": "لپ تاپ دل" },
+                { "id": 5, "text": "لپ تاپ ایسر" },
+                { "id": 6, "text": "لپ تاپ شیائومی" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "group": [
+            {
+              "id": 1,
+              "header": "هدفون",
+              "link": [
+                { "id": 1, "text": "هدفون بی سیم" },
+                { "id": 2, "text": "هدفون سامسونگ" },
+                { "id": 3, "text": "هدفون شیائومی" },
+                { "id": 4, "text": "هدفون ریزر" },
+                { "id": 5, "text": "هدفون بیتس" },
+                { "id": 6, "text": "هدفون اپل" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "group": [
+            {
+              "id": 1,
+              "header": "پرینتر",
+              "link": [
+                { "id": 1, "text": "پرینتر سه بعدی" },
+                { "id": 2, "text": "پرینتر حرارتی" },
+                { "id": 3, "text": "پرینتر لیبل زن" },
+                { "id": 4, "text": "پرینتر اچ پی" },
+                { "id": 5, "text": "پرینتر رنگی" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "topic": "پوشاک",
+      "subMenu": [
+        {
+          "id": 1,
+          "group": [
+            {
+              "id": 1,
+              "header": "لپ تاپ",
+              "link": [
+                { "id": 1, "text": "پوشاک ایسوس" },
+                { "id": 2, "text": "لپ تاپ سامسونگ" },
+                { "id": 3, "text": "لپ تاپ اچ پی" },
+                { "id": 4, "text": "لپ تاپ دل" },
+                { "id": 5, "text": "لپ تاپ ایسر" },
+                { "id": 6, "text": "لپ تاپ شیائومی" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "group": [
+            {
+              "id": 1,
+              "header": "هدفون",
+              "link": [
+                { "id": 1, "text": "هدفون بی سیم" },
+                { "id": 2, "text": "هدفون سامسونگ" },
+                { "id": 3, "text": "هدفون شیائومی" },
+                { "id": 4, "text": "هدفون ریزر" },
+                { "id": 5, "text": "هدفون بیتس" },
+                { "id": 6, "text": "هدفون اپل" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "group": [
+            {
+              "id": 1,
+              "header": "پرینتر",
+              "link": [
+                { "id": 1, "text": "پرینتر سه بعدی" },
+                { "id": 2, "text": "پرینتر حرارتی" },
+                { "id": 3, "text": "پرینتر لیبل زن" },
+                { "id": 4, "text": "پرینتر اچ پی" },
+                { "id": 5, "text": "پرینتر رنگی" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "story": [
+    {
+      "id": 1,
+      "img": "https://oss.livuvo.com/images/85d7457985004ad99e6d766e2f15c38a.jpg",
+      "text": "برای عید لوازم آراشیتو تکمیل کن"
+    },
+    {
+      "id": 2,
+      "img": "https://dkstatics-public.digikala.com/digikala-content-x-profile/0c9bf3090971a2c4055891be4ac0631737c15ae8_1702326340.jpg?x-oss-process=image/resize,m_lfit,h_150,w_150/quality,q_80",
+      "text": "عجب ترکیبی!!!"
+    },
+    {
+      "id": 3,
+      "img": "https://dkstatics-public.digikala.com/digikala-content-x-profile/56eae2fc20180a9090f509dc045c785bad475cec_1650379709.jpg?x-oss-process=image/resize,m_lfit,h_150,w_150/quality,q_80",
+      "text": "کوچیک ترین پرچمدار ریزر"
+    },
+    {
+      "id": 4,
+      "img": "https://dkstatics-public.digikala.com/digikala-content-x-profile/64a140fa52eb98664dd20376d58916d0298bab5f_1659959596.jpg?x-oss-process=image/resize,m_lfit,h_150,w_150/quality,q_80",
+      "text": "لپ‌تاپ غیرممکن!"
+    },
+    {
+      "id": 5,
+      "img": "https://dkstatics-public.digikala.com/digikala-content-x-profile/f0b3cf9798f5a9d4a96dec65dd0ea8bf4470ce96_1695285268.jpg?x-oss-process=image/resize,m_lfit,h_150,w_150/quality,q_80",
+      "text": "کرم ضدآفتاب ژنوبایوتیک"
+    },
+    {
+      "id": 6,
+      "img": "https://dkstatics-public.digikala.com/digikala-content-x-profile/b008dca7921f9823707059f996b72370a1479bec_1687459058.jpg?x-oss-process=image/resize,m_lfit,h_150,w_150/quality,q_80",
+      "text": "کیفیتش هم مثل ظاهرش خوبه👌🏽"
+    },
+    {
+      "id": 7,
+      "img": "https://dkstatics-public.digikala.com/digikala-content-x-profile/917a002ac419b465d8a4e06adcb2629d13807cbd_1709969172.jpg?x-oss-process=image/resize,m_lfit,h_150,w_150/quality,q_80",
+      "text": "سه قمقمه تو دل هم😳"
+    },
+    {
+      "id": 8,
+      "img": "https://dkstatics-public.digikala.com/digikala-content-x-profile/c945e7afc6c344c30a81ef550bc67affb36b8fb8_1645535323.jpg?x-oss-process=image/resize,m_lfit,h_150,w_150/quality,q_80",
+      "text": "ایده جا و مکان داره؟"
+    },
+    {
+      "id": 9,
+      "img": "https://dkstatics-public.digikala.com/digikala-content-x-profile/7d98ba6e219321b9e2a5851aeb1faa6d8d2d0200_1682239918.jpg?x-oss-process=image/resize,m_lfit,h_150,w_150/quality,q_80",
+      "text": "چقدر شیک‌🤌🏼"
+    },
+    {
+      "id": 10,
+      "img": "https://dkstatics-public.digikala.com/digikala-content-x-profile/d9bafb0c51bce812b49b4d5d2d94cda85336f255_1654384043.jpg?x-oss-process=image/resize,m_lfit,h_150,w_150/quality,q_80",
+      "text": "ببین جزیره نخل چیه"
+    },
+    {
+      "id": 11,
+      "img": "https://dkstatics-public.digikala.com/digikala-content-x-profile/10e5f08735c7a0f79ae72891a02a47a8d4be914e_1659856355.jpg?x-oss-process=image/resize,m_lfit,h_150,w_150/quality,q_80",
+      "text": "فست شارژ با ارزش خرید بالا"
+    },
+    {
+      "id": 12,
+      "img": "https://dkstatics-public.digikala.com/digikala-content-x-profile/409e1791ee33822f60187835d63a6204569c45b5_1675147282.jpg?x-oss-process=image/resize,m_lfit,h_150,w_150/quality,q_80",
+      "text": "معمولی اما با ارزش ⚡️"
+    },
+    {
+      "id": 13,
+      "img": "https://dkstatics-public.digikala.com/digikala-content-x-profile/96e8f0e3a74785c92aa262a04383a71fd68714fc_1669144745.jpg?x-oss-process=image/resize,m_lfit,h_150,w_150/quality,q_80",
+      "text": "ساده اما کاربردی"
+    },
+    {
+      "id": 14,
+      "img": "https://dkstatics-public.digikala.com/digikala-content-x-profile/10e5f08735c7a0f79ae72891a02a47a8d4be914e_1659856355.jpg?x-oss-process=image/resize,m_lfit,h_150,w_150/quality,q_80",
+      "text": "فست شارژ با ارزش خرید بالا"
+    },
+    {
+      "id": 15,
+      "img": "https://dkstatics-public.digikala.com/digikala-content-x-profile/9a4e321c37c5e7e8f077d56ad1feefa50b24268f_1690041267.jpg?x-oss-process=image/resize,m_lfit,h_150,w_150/quality,q_80",
+      "text": "مقایسه شیائومی بادز ۳ پرو و ۴ پرو"
+    },
+    {
+      "id": 16,
+      "img": "https://dkstatics-public.digikala.com/digikala-content-x-profile/07e4c861db576bcc60affa8697771dc6dab3ca21_1708893710.jpg?x-oss-process=image/resize,m_lfit,h_150,w_150/quality,q_80",
+      "text": "گیتارتو دوست داری ؟ اینو بخر"
+    },
+    {
+      "id": 17,
+      "img": "https://dkstatics-public.digikala.com/digikala-content-x-profile/ce9aa8057b447b732e362bd2e633cf229a80a506_1683475329.jpg?x-oss-process=image/resize,m_lfit,h_150,w_150/quality,q_80",
+      "text": "اکسپنشنهای جذاب برگاندی"
+    }
+  ],
+  "slider": [
+    {
+      "id": 1,
+      "phone": "https://dkstatics-public.digikala.com/digikala-adservice-banners/30800511bda6f7f1a276a68d632cba5b88cf8008_1709150621.jpg?x-oss-process=image/quality,q_95",
+      "desktop": "https://dkstatics-public.digikala.com/digikala-adservice-banners/5610bce7a5837a3811a82cfede1ec6f79689ce22_1709034018.gif?x-oss-process=image"
+    },
+    {
+      "id": 2,
+      "phone": "https://dkstatics-public.digikala.com/digikala-adservice-banners/63a8c6e68d220841bd1fcad8cd3c62c050e249c2_1708517512.gif?x-oss-process=image",
+      "desktop": "https://dkstatics-public.digikala.com/digikala-adservice-banners/a163d2c904a4a1983bc31d9f0977b2d4be309ae2_1708757632.gif?x-oss-process=image"
+    },
+    {
+      "id": 3,
+      "phone": "https://dkstatics-public.digikala.com/digikala-adservice-banners/7aade5f3231429f805b812ad6caebabd0de7c9f8_1709034182.jpg?x-oss-process=image/quality,q_95",
+      "desktop": "https://dkstatics-public.digikala.com/digikala-adservice-banners/eb554ed55439a05b93c4640ab0270d05e569a69c_1709043402.jpg?x-oss-process=image/quality,q_95"
+    },
+    {
+      "id": 4,
+      "phone": "https://dkstatics-public.digikala.com/digikala-adservice-banners/699642963498e8c0fc9f86898a4d082c64c165ba_1709034112.jpg?x-oss-process=image/quality,q_95",
+      "desktop": "https://dkstatics-public.digikala.com/digikala-adservice-banners/fd6391040b944f17ecc5f8c4b095a5e1816cdfd0_1709034250.jpg?x-oss-process=image/quality,q_95"
+    }
+  ],
+  "option": [
+    {
+      "id": 1,
+      "img": "https://dkstatics-public.digikala.com/digikala-bellatrix/d0dc31c892be8cf1408e4e14580b3f479da66bd1_1648897133.png",
+      "text": "دیجی‌کالا جت"
+    },
+    {
+      "id": 2,
+      "img": "https://dkstatics-public.digikala.com/digikala-bellatrix/ac127167132653d14c758748b07824a6a7643a31_1663444619.png",
+      "text": "دریافت وام"
+    },
+    {
+      "id": 3,
+      "img": "https://dkstatics-public.digikala.com/digikala-bellatrix/625d8883f37944f3f0c4af5fe39435600931ab22_1703323478.png",
+      "text": "حراج استایل"
+    },
+    {
+      "id": 4,
+      "img": "https://dkstatics-public.digikala.com/digikala-bellatrix/425c8f55c9bb5ad8e860bdc9f82421ce4fcc18de_1703192837.png",
+      "text": "سوپرمارکت"
+    },
+    {
+      "id": 5,
+      "img": "https://dkstatics-public.digikala.com/digikala-bellatrix/a5e92320101910c6bd31f816e22d35648085af19_1703192218.png",
+      "text": "هر خرید یک شانس"
+    },
+    {
+      "id": 6,
+      "img": "https://dkstatics-public.digikala.com/digikala-bellatrix/e8c1c372a304dc7c6ed600a6d4eb017f2aaea8cd_1697297561.png",
+      "text": "گیم نت"
+    },
+    {
+      "id": 7,
+      "img": "https://dkstatics-public.digikala.com/digikala-bellatrix/78ccd40cbf305fb067de78ddab5be84f69589c8d_1648897009.png",
+      "text": "دیجی پلاس"
+    }
+  ],
+  "adOne": [
+    {
+      "id": 1,
+      "img": [
+        "https://dkstatics-public.digikala.com/digikala-adservice-banners/332c07e2a10cca55ed1d2fccf56029d6f0b8b607_1709391269.jpg?x-oss-process=image/quality,q_95",
+        "https://dkstatics-public.digikala.com/digikala-adservice-banners/b1a4ec9af67e2bf976b6b9808c73248b7247d1e5_1709549593.jpg?x-oss-process=image/quality,q_95",
+        "https://dkstatics-public.digikala.com/digikala-adservice-banners/f870c46c9a145459be5f9ad25420fc07d2b04ca4_1709550012.jpg?x-oss-process=image/quality,q_95",
+        "https://dkstatics-public.digikala.com/digikala-adservice-banners/854aed054553325b13a2a784ac468d3be31b7f29_1709549721.jpg?x-oss-process=image/quality,q_95"
+      ]
+    }
+  ],
+  "category": [
+    [
+      {
+        "id": 1,
+        "img": "https://dkstatics-public.digikala.com/digikala-categories/510816e9ec4cbfad2edbff2763e2059a504e571b_1709022392.png",
+        "text": "موبایل"
+      },
+      {
+        "id": 2,
+        "img": "https://dkstatics-public.digikala.com/digikala-categories/ba175c709e3cc22e3fd7c65c7c6a21854d1c3765_1709022399.png",
+        "text": "کالای دیجیتال"
+      },
+      {
+        "id": 3,
+        "img": "https://dkstatics-public.digikala.com/digikala-categories/1fad42c6177e71db1a368e258c5bc004d6073a3a_1709022413.png",
+        "text": "مد و پوشاک"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "img": "https://dkstatics-public.digikala.com/digikala-categories/5f3aa7bb8bde7c7433d31025d508ee3afd367773_1709022418.png",
+        "text": "کالاهای سوپرمارکتی"
+      },
+      {
+        "id": 2,
+        "img": "https://dkstatics-public.digikala.com/digikala-categories/f1ff29c0399fdbeef7cef44bf6ec897f31287449_1709022424.png",
+        "text": "کتاب، لوازم تحریر و هنر"
+      },
+      {
+        "id": 3,
+        "img": "https://dkstatics-public.digikala.com/digikala-categories/dee082825fa27bf216cc8cf2153745062c29e62d_1709022430.png",
+        "text": "اسباب بازی، کودک و نوزاد"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "img": "https://dkstatics-public.digikala.com/digikala-categories/0904ded09b1b4874e30fb92aeb5fd8fb21051eb6_1709026476.png",
+        "text": "لوازم خانگی برقی"
+      },
+      {
+        "id": 2,
+        "img": "https://dkstatics-public.digikala.com/digikala-categories/c2957abd1f437415eceb6428c7dce93ef3ee7495_1709022473.png",
+        "text": "زیبایی و سلامت"
+      },
+      {
+        "id": 3,
+        "img": "https://dkstatics-public.digikala.com/digikala-categories/f64a3adf6e327bf1b85ce43449740d974eaaf037_1709022480.png",
+        "text": "ورزش و سفر"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "img": "https://dkstatics-public.digikala.com/digikala-categories/3e3ec550569f974bc7e9d78c30b48612e5b1c606_1709022406.png",
+        "text": "خانه و آشپزخانه"
+      },
+      {
+        "id": 2,
+        "img": "https://dkstatics-public.digikala.com/digikala-categories/5421d413c4f0a943cdc1cca473eb15536b13c98f_1709022487.png",
+        "text": "ابزار آلات و تجهیزات"
+      },
+      {
+        "id": 3,
+        "img": "https://dkstatics-public.digikala.com/digikala-categories/ac63c44ab551dc24421aea53b92686a2f72906ff_1709022493.png",
+        "text": "خودرو و موتورسیکلت"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "img": "https://dkstatics-public.digikala.com/digikala-categories/c48ab9fc81e7732a617f90eca608b943d4616ff7_1709022499.png",
+        "text": "محصولات بومی و محلی"
+      },
+      {
+        "id": 2,
+        "img": "https://dkstatics-public.digikala.com/digikala-categories/a25821d184d092f05383e6039738d2cad25bcbb7_1709022511.png",
+        "text": "کارت هدیه"
+      }
+    ]
+  ],
+  "adTwo": [
+    {
+      "id": 1,
+      "img": [
+        "https://dkstatics-public.digikala.com/digikala-adservice-banners/6c76751ff80a415d03ff0260d86f6fb8761370a0_1709987095.jpg?x-oss-process=image/quality,q_95",
+        "https://dkstatics-public.digikala.com/digikala-adservice-banners/97c146faffeab2a12dbfe29a451f854340ec0b08_1709961828.jpg?x-oss-process=image/quality,q_95"
+      ]
+    }
+  ],
+  "suggest": [
+    [
+      {
+        "id": 1,
+        "img": "https://dkstatics-public.digikala.com/digikala-products/ec9a962187e1f82cc47e7a148ef99ec1c6fd024d_1656423336.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60",
+        "text": "گوشی موبایل"
+      },
+      {
+        "id": 2,
+        "img": "https://dkstatics-public.digikala.com/digikala-products/653b0ef06b73568fafa552cc3d8fec6b660bd66c_1690715992.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60",
+        "text": "ساعت هوشمند"
+      }
+    ],
+    [
+      {
+        "id": 3,
+        "img": "https://dkstatics-public.digikala.com/digikala-products/d2a884c18c11cea0d42de5e96810f2b7ac64516b_1653987244.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60",
+        "text": "اسپیکر (بلندگو)"
+      },
+      {
+        "id": 4,
+        "img": "https://dkstatics-public.digikala.com/digikala-products/981d87dc9d114a51d13997f18a9ca0575fcd2790_1708963010.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60",
+        "text": "جوراب مردانه"
+      }
+    ],
+    [
+      {
+        "id": 5,
+        "img": "https://dkstatics-public.digikala.com/digikala-products/4b1b7729a338572505cacf9f1a7fc4535c23d551_1701036136.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60",
+        "text": "کمد لباس و ارگانایزر"
+      },
+      {
+        "id": 6,
+        "img": "https://dkstatics-public.digikala.com/digikala-products/d2e1434a3846b06a6296e7ad430dd84ad1a3fc65_1641899344.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60",
+        "text": "خودکار و روان نویس"
+      }
+    ],
+    [
+      {
+        "id": 7,
+        "img": "https://dkstatics-public.digikala.com/digikala-products/4f4a77efe1a48f7728cfc1f6e26f01eb05dff930_1692783971.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60",
+        "text": "پرده"
+      },
+      {
+        "id": 8,
+        "img": "https://dkstatics-public.digikala.com/digikala-products/19e5fcf7184fb562ce80d3b4fc846037ebff45b5_1692097050.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60",
+        "text": "هدفون، هدست و هندزفری"
+      }
+    ],
+    [
+      {
+        "id": 9,
+        "img": "https://dkstatics-public.digikala.com/digikala-products/b2c0eb53f0eeacdefb8771155bf5e4887222a654_1688388473.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60",
+        "text": "لپ تاپ و الترابوک"
+      },
+      {
+        "id": 10,
+        "img": "https://dkstatics-public.digikala.com/digikala-products/e8db003acadad2a677e7bef5c7b73601b3e53d68_1674206472.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60",
+        "text": "کنسول خانگی"
+      }
+    ],
+    [
+      {
+        "id": 11,
+        "img": "https://dkstatics-public.digikala.com/digikala-products/354759910f958d03c6d39800395b96088e52b9a0_1678081806.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60",
+        "text": "تجهیزات جانبی سفر و کمپینگ"
+      },
+      {
+        "id": 12,
+        "img": "https://dkstatics-public.digikala.com/digikala-products/8ee53a1c7c90bd688cd900dbde49d152eb1aea35_1678523815.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60",
+        "text": "سرخ کن"
+      }
+    ],
+    [
+      {
+        "id": 13,
+        "img": "https://dkstatics-public.digikala.com/digikala-products/e10938a8268399a90fdae8e245015cf765753be4_1613486389.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60",
+        "text": "لامپ و چراغ"
+      },
+      {
+        "id": 14,
+        "img": "https://dkstatics-public.digikala.com/digikala-products/5502951.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60",
+        "text": "آچار"
+      }
+    ]
+  ],
+  "brand": [
+    {
+      "id": 1,
+      "img": "https://dkstatics-public.digikala.com/digikala-brands/2c36ceb629598fa31b9b321fcd4e47773bd93ef7_1649498016.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    },
+    {
+      "id": 2,
+      "img": "https://dkstatics-public.digikala.com/digikala-brands/7d615272ba7fc5dd708195ae858e2971de86a06f_1649498033.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    },
+    {
+      "id": 3,
+      "img": "https://dkstatics-public.digikala.com/digikala-brands/6091.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    },
+    {
+      "id": 4,
+      "img": "https://dkstatics-public.digikala.com/digikala-brands/1800.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    },
+    {
+      "id": 5,
+      "img": "https://dkstatics-public.digikala.com/digikala-brands/af664f0bcf9bc412b741c618e6e52fc2d090198f_1619269008.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    },
+    {
+      "id": 6,
+      "img": "https://dkstatics-public.digikala.com/digikala-brands/7857.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    },
+    {
+      "id": 7,
+      "img": "https://dkstatics-public.digikala.com/digikala-brands/100012423.jpg?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    },
+    {
+      "id": 8,
+      "img": "https://dkstatics-public.digikala.com/digikala-brands/3280.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    },
+    {
+      "id": 9,
+      "img": "https://dkstatics-public.digikala.com/digikala-brands/e2d33dcdd991ae450ef90a6a3510e1cebe1056bb_1684054184.jpg?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    },
+    {
+      "id": 10,
+      "img": "https://dkstatics-public.digikala.com/digikala-brands/3960.jpg?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    }
+  ],
+  "adThree": [
+    {
+      "id": 3,
+      "img": [
+        "https://dkstatics-public.digikala.com/digikala-adservice-banners/b86edcb0184efca8d35513819555ba9e66d306ec_1709731202.jpg?x-oss-process=image/quality,q_95",
+        "https://dkstatics-public.digikala.com/digikala-adservice-banners/3477064a66520088ee56262fe447240151f0f7cd_1709982125.gif?x-oss-process=image"
+      ]
+    }
+  ],
+  "plus": [
+    {
+      "id": 1,
+      "img": "https://www.digikala.com/statics/img/png/digiplus/plus-widget.png"
+    }
+  ],
+  "club": [
+    {
+      "id": 1,
+      "img": "https://www.digikala.com/statics/img/svg/club/digiclub-logo-white.svg"
+    },
+    {
+      "id": 2,
+      "images": [
+        {
+          "id": 1,
+          "img": "https://www.digikala.com/statics/img/png/digiclub/awards.webp",
+          "text": "جایزه ها"
+        },
+        {
+          "id": 2,
+          "img": "https://www.digikala.com/statics/img/png/digiclub/missions.webp",
+          "text": "ماموریت ها"
+        },
+        {
+          "id": 3,
+          "img": "https://www.digikala.com/statics/img/png/digiclub/wheel-spinner.webp",
+          "text": "چرخ و بخت"
+        }
+      ]
+    }
+  ],
+  "adFour": [
+    {
+      "id": 4,
+      "img": [
+        "https://dkstatics-public.digikala.com/digikala-adservice-banners/39daac03f9598eca6788236b3f612b144bdbd0d3_1709730780.jpg?x-oss-process=image/quality,q_95"
+      ]
+    }
+  ],
+  "read": [
+    {
+      "id": 1,
+      "img": "https://www.digikala.com/mag/wp-content/uploads/2024/04/1-2.png",
+      "text": "راهنمای خرید بهترین ساعت‌های هوشمند گلوریمی؛ از گران‌ترین تا ارزان‌ترین"
+    },
+    {
+      "id": 2,
+      "img": "https://www.digikala.com/mag/wp-content/uploads/2024/03/01.06-9.jpg",
+      "text": "۳ قابلیت عجیب گوشی ریلمی GT3"
+    },
+    {
+      "id": 3,
+      "img": "https://www.digikala.com/mag/wp-content/uploads/2024/03/01.06-35.jpg",
+      "text": "بررسی هدفون QCY C2؛ از بهترین‌های دور گردنی"
+    },
+    {
+      "id": 4,
+      "img": "https://www.digikala.com/mag/wp-content/uploads/2024/03/01.06-8.jpg",
+      "text": "بررسی لپ‌تاپ ایسوس Strix G16؛ لپ‌تاپی که کم نمی‌آورد!"
+    }
+  ],
+  "footer": [
+    {
+      "id": 1,
+      "img": "https://www.digikala.com/statics/img/svg/digi.svg"
+    },
+    {
+      "id": 2,
+      "img": "https://www.digikala.com/statics/img/png/footerlogo2.webp"
+    },
+    {
+      "id": 3,
+      "img": [
+        {
+          "id": 1,
+          "img": "https://www.digikala.com/statics/img/png/rezi.webp"
+        },
+        {
+          "id": 2,
+          "img": "https://www.digikala.com/statics/img/png/kasbokar.webp"
+        },
+        {
+          "id": 3,
+          "img": "https://media.mehrnews.com/d/2022/09/11/0/4277508.png?ts=1662907680964"
+        }
+      ]
+    }
+  ]
+}
