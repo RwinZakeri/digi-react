@@ -1,7 +1,8 @@
 import { CiMobile2 } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 function BoxTitle(props) {
-  const { index, mega } = props;
+  const { index, mega, link } = props;
   return (
     <>
       <div
@@ -17,7 +18,7 @@ function BoxTitle(props) {
           {props.icon}
         </span>
         <span className="text-[10px] 2xl:text-[12px] xl:text-[11px] lg:text-[10px]">
-          {props.text}
+          <Link to={`/${link}`}>{props.text}</Link>
         </span>
         {index == 0 && (
           <>

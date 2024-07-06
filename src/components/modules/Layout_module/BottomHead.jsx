@@ -19,40 +19,48 @@ function BottomHead() {
       id: 1,
       text: "دسته‌بندی کالاها",
       icon: <Menu />,
+      link: "/",
     },
     {
       id: 2,
       text: "شگفت‌انگیزها",
       icon: <Special />,
+      link: "incredible-offers",
     },
     {
       id: 3,
       text: "سوپرمارکت",
       icon: <SuperMarket />,
+      link: "",
     },
     {
       id: 4,
       text: "کارت هدیه",
+      link: "",
       icon: <Gift />,
     },
     {
       id: 5,
       text: "پرفروش‌ترین‌ها",
+      link: "",
       icon: <Popular />,
     },
     {
       id: 6,
       text: "تخفیف‌ها و پیشنهادها",
+      link: "",
       icon: <Sales />,
     },
     {
       id: 7,
       text: "سوالی دارید؟",
+      link: "",
       icon: "",
     },
     {
       id: 8,
       text: "در دیجی‌کالا بفروشید!",
+      link: "",
       icon: "",
     },
   ];

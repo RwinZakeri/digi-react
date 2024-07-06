@@ -3,16 +3,19 @@ import digikalaLogo from "../../../assets/images/header_images/digikalaLogo.svg"
 import searchLogo from "../../../assets/images/header_images/search.svg";
 import shopLogo from "../../../assets/images/header_images/shop.svg";
 import exit from "../../../assets/images/header_images/exit.svg";
+import { Link } from "react-router-dom";
 
 function TopHead() {
   return (
     <div className="w-full h-3/5 2xl:w-11/12 flex mx-auto md:pb-1   ">
       <div className="lx:w-4/5 w-full h-full flex items-center px-4 ">
-        <img
-          src={digikalaLogo}
-          alt="main logo"
-          className="ml-5 hidden lg:block"
-        />
+        <Link to={"/"}>
+          <img
+            src={digikalaLogo}
+            alt="main logo"
+            className="ml-5 hidden lg:block"
+          />
+        </Link>
         <div className="w-full lg:w-[600px] h-[44px] bg-[#F0F0F1] px-3 rounded-md flex items-center">
           <button className="h-full px-5">
             <img src={searchLogo} alt="search" />

@@ -1,0 +1,38 @@
+export const IncredibleProductBarData = [
+  {
+    id: 1,
+    title: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت",
+    price: "6000000",
+    discount: "50",
+    rate: "4.5",
+    time: "",
+    src: "../../public/images/Incredible_images/speaker.png",
+  },
+  {
+    id: 2,
+    title: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت",
+    price: "3000000",
+    discount: "90",
+    rate: "4.5",
+    time: "",
+    src: "../../public/images/Incredible_images/speaker.png",
+  },
+  {
+    id: 3,
+    title: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت",
+    price: "8000000",
+    discount: "100",
+    rate: "4.5",
+    time: "",
+    src: "../../public/images/Incredible_images/speaker.png",
+  },
+  {
+    id: 4,
+    title: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت",
+    price: "1000000",
+    discount: "10",
+    rate: "4",
+    time: "",
+    src: "../../public/images/Incredible_images/speaker.png",
+  },
+];
