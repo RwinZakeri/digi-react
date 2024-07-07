@@ -31,7 +31,7 @@ function BottomHead() {
       id: 3,
       text: "سوپرمارکت",
       icon: <SuperMarket />,
-      link: "",
+      link: "fresh",
     },
     {
       id: 4,

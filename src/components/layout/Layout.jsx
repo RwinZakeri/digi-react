@@ -1,3 +1,5 @@
+// location
+import { useLocation } from "react-router-dom";
 // Components
 import Footer from "./Footer";
 import Header from "./Header";
@@ -6,10 +8,13 @@ import { PiShoppingCartSimpleBold } from "react-icons/pi";
 import { TbCategory } from "react-icons/tb";
 import { BiHomeAlt2 } from "react-icons/bi";
 import { FaRegUser } from "react-icons/fa6";
+import SpecialHeader from "./Fresh/SpecialHeader";
 function Layout({ children }) {
+  const location = useLocation();
+
   return (
     <div className="">
-      <Header />
+      {location.pathname !== "/fresh" ? <Header /> : <SpecialHeader />}
       {children}
       <Footer />
       {/* head nav */}
