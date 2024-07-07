@@ -21,14 +21,15 @@ function Banner() {
     <div className="w-full h-full object-fill flex row">
       <div className="w-full h-full mx-auto relative hidden md:block">
         <Swiper
+          modules={[Autoplay, Pagination, Navigation]}
           spaceBetween={30}
           centeredSlides={true}
+          navigation
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
           }}
-          modules={[Autoplay, Pagination, Navigation]}
-          className="mySwiper"
+          className="slider"
         >
           {slider.map((item) => (
             <SwiperSlide key={item.id} className="bg-red-500">

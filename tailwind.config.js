@@ -7,7 +7,7 @@ export default {
     //   inputColor: "#81858b",
     // },
     fontFamily: {
-      iranYekan: ["iranYekan"],
+      Yekan: ["iranYekan"],
     },
   },
   plugins: [],

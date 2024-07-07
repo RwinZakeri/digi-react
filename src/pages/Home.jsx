@@ -19,6 +19,7 @@ import Reading from "../components/templates/Home_templates/Reading";
 function Home() {
   return (
     <div>
+
       <StoryBar />
       <Banner />
       <OptionsBar />

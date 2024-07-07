@@ -12,7 +12,7 @@ import {
   Popular,
   Sales,
 } from "../../../assets/images/header_images/NavIcon/Icon";
-function BottomHead() {
+function BottomHead({ visiable }) {
   const { mega } = menuData;
   const headerTitles = [
     {
@@ -67,9 +67,23 @@ function BottomHead() {
   return (
     <div className="w-full 2xl:w-11/12  mx-auto h-full hidden lg:flex">
       <nav className="w-full mx-auto h-2/5  hidden lg:flex">
-        {headerTitles.map((item, index) => (
-          <BoxTitle key={item.id} {...item} index={index} mega={mega} />
-        ))}
+        {typeof visiable == "object"
+          ? visiable.map((element, index) => {
+              console.log(headerTitles[element]);
+              return (
+                <BoxTitle
+                  key={headerTitles[element]}
+                  {...headerTitles[element]}
+                  index={index}
+                  mega={mega}
+                />
+              );
+            })
+          : headerTitles.map((item, index) => {
+              return (
+                <BoxTitle key={item.id} {...item} index={index} mega={mega} />
+              );
+            })}
       </nav>
       <div className="w-1/5 h-full leading-[44px] flex items-center justify-end pl-6">
         <CiLocationOn width={15} height={15} alt="logo" />

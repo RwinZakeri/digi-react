@@ -8,7 +8,7 @@ import { PiShoppingCartSimpleBold } from "react-icons/pi";
 import { TbCategory } from "react-icons/tb";
 import { BiHomeAlt2 } from "react-icons/bi";
 import { FaRegUser } from "react-icons/fa6";
-import SpecialHeader from "./Fresh/SpecialHeader";
+import SpecialHeader from "../modules/Layout_module/SpecialHeader";
 function Layout({ children }) {
   const location = useLocation();
 

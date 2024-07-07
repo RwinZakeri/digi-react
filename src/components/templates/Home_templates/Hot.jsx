@@ -23,9 +23,9 @@ function Hot() {
             window.innerWidth >= 1600
               ? 4
               : window.innerWidth >= 1220
-              ? 4
+              ? 3
               : window.innerWidth >= 782
-              ? 2
+              ? 1
               : window.innerWidth >= 668
               ? 1
               : 1
@@ -94,7 +94,7 @@ function Hot() {
         </Swiper>
       </div>
     </div>
-  )
+  );
 }
 
-export default Hot
+export default Hot;
