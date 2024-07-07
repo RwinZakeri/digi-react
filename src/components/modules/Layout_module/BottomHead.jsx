@@ -12,7 +12,28 @@ import {
   Popular,
   Sales,
 } from "../../../assets/images/header_images/NavIcon/Icon";
+import { useEffect, useState } from "react";
 function BottomHead({ visiable }) {
+  const [show, setShow] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  const controlNavbar = () => {
+    if (window.scrollY > lastScrollY) {
+      // If we are scrolling down, hide the navbar
+      setShow(false);
+    } else {
+      // If we are scrolling up, show the navbar
+      setShow(true);
+    }
+    setLastScrollY(window.scrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", controlNavbar);
+    return () => {
+      window.removeEventListener("scroll", controlNavbar);
+    };
+  }, []);
   const { mega } = menuData;
   const headerTitles = [
     {
@@ -65,8 +86,10 @@ function BottomHead({ visiable }) {
     },
   ];
   return (
-    <div className="w-full 2xl:w-11/12  mx-auto h-full hidden lg:flex">
-      <nav className="w-full mx-auto h-2/5  hidden lg:flex">
+    <div
+      className={`w-full  2xl:w-11/12 ${show ? "" : ""} mx-auto h-full flex`}
+    >
+      <nav className="w-full mx-auto h-2/5 hidden lg:flex">
         {typeof visiable == "object"
           ? visiable.map((element, index) => {
               console.log(headerTitles[element]);

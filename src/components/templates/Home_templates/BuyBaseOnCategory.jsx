@@ -8,33 +8,55 @@ import "swiper/css/pagination";
 import "../../../index.css";
 // data
 import { BuyBaseOnCategoryData } from "../../../data/BuyBaseOnCategoryData";
-
-function BuyBaseOnCategory() {
+// location
+import { useLocation } from "react-router-dom";
+function BuyBaseOnCategory({ FreshBuyBaseOnCategoryData }) {
+  const location = useLocation();
   return (
     <div className="w-11/12 2xl:w-4/6 mx-auto text-center my-4 py-4">
       <h1 className="text-2xl">خرید بر اساس دسته‌بندی</h1>
       <div className="w-full lg:flex gap-r-12 gap-x-12 flex-nowrap flex-col justify-center items-center hidden">
         <div className="w-full flex mx-auto justify-center items-center gap-16">
-          {BuyBaseOnCategoryData.slice(0, 8).map((item) => (
-            <div
-              key={item.id}
-              className="w-[100px] h-[150px] flex flex-col justify-between rounded-full py-4 "
-            >
-              <img src={item.img} alt="BuyBaseOnCategoryImage" />
-              <p className="text-[12px]">{item.title}</p>
-            </div>
-          ))}
+          {location.pathname !== "/fresh"
+            ? BuyBaseOnCategoryData.slice(0, 8).map((item) => (
+                <div
+                  key={item.id}
+                  className="w-[100px] h-[150px] flex flex-col justify-between rounded-full py-4 "
+                >
+                  <img src={item.img} alt="BuyBaseOnCategoryImage" />
+                  <p className="text-[12px]">{item.title}</p>
+                </div>
+              ))
+            : FreshBuyBaseOnCategoryData.slice(0, 8).map((item) => (
+                <div
+                  key={item.id}
+                  className="w-[100px] h-[150px] flex flex-col justify-between rounded-full py-4 "
+                >
+                  <img src={item.img} alt="BuyBaseOnCategoryImage" />
+                  <p className="text-[12px]">{item.title}</p>
+                </div>
+              ))}
         </div>
         <div className="w-full flex mx-auto justify-center items-center gap-16">
-          {BuyBaseOnCategoryData.slice(8, 16).map((item) => (
-            <div
-              key={item.id}
-              className="w-[100px] h-[150px] flex flex-col justify-between rounded-full py-4"
-            >
-              <img src={item.img} alt="BuyBaseOnCategoryImage" />
-              <p className="text-[12px]">{item.title}</p>
-            </div>
-          ))}
+          {location.pathname !== "/fresh"
+            ? BuyBaseOnCategoryData.slice(8, 16).map((item) => (
+                <div
+                  key={item.id}
+                  className="w-[100px] h-[150px] flex flex-col justify-between rounded-full py-4 "
+                >
+                  <img src={item.img} alt="BuyBaseOnCategoryImage" />
+                  <p className="text-[12px]">{item.title}</p>
+                </div>
+              ))
+            : FreshBuyBaseOnCategoryData.slice(8, 16).map((item) => (
+                <div
+                  key={item.id}
+                  className="w-[100px] h-[150px] flex flex-col justify-between rounded-full py-4 "
+                >
+                  <img src={item.img} alt="BuyBaseOnCategoryImage" />
+                  <p className="text-[12px]">{item.title}</p>
+                </div>
+              ))}
         </div>
       </div>
       {/* Mobile */}
@@ -78,14 +100,23 @@ function BuyBaseOnCategory() {
             },
           }}
         >
-          {BuyBaseOnCategoryData.slice(0, ).map((item) => (
-            <SwiperSlide key={item.id}>
-              <div className="w-[100px] h-[150px] flex flex-col justify-between rounded-full py-4">
-                <img src={item.img} alt="image" />
-                <p className="text-[12px]">{item.title}</p>
-              </div>
-            </SwiperSlide>
-          ))}
+          {location.pathname !== "/fresh"
+            ? BuyBaseOnCategoryData.slice(0).map((item) => (
+                <SwiperSlide key={item.id}>
+                  <div className="w-[100px] h-[150px] flex flex-col justify-between rounded-full py-4">
+                    <img src={item.img} alt="image" />
+                    <p className="text-[12px]">{item.title}</p>
+                  </div>
+                </SwiperSlide>
+              ))
+            : FreshBuyBaseOnCategoryData.slice(0).map((item) => (
+                <SwiperSlide key={item.id}>
+                  <div className="w-[100px] h-[150px] flex flex-col justify-between rounded-full py-4">
+                    <img src={item.img} alt="image" />
+                    <p className="text-[12px]">{item.title}</p>
+                  </div>
+                </SwiperSlide>
+              ))}
         </Swiper>
       </div>
     </div>

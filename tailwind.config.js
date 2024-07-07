@@ -8,6 +8,7 @@ export default {
     // },
     fontFamily: {
       Yekan: ["iranYekan"],
+      IranSans: ["iranSans"],
     },
   },
   plugins: [],

@@ -10,7 +10,7 @@ import "../../../index.css";
 import { Pagination } from "swiper/modules";
 // components
 import HotCard from "../../modules/Home_module/HotCard";
-function Hot() {
+function Hot({ data }) {
   return (
     <div className="w-11/12 max-w-[1336px] mx-auto border-2 rounded-xl m-8">
       <h1 className="text-center flex items-center justify-center text-[25px] p-2">
@@ -19,77 +19,54 @@ function Hot() {
       </h1>
       <div className="w-full h-full flex gap-4">
         <Swiper
-          slidesPerView={
-            window.innerWidth >= 1600
-              ? 4
-              : window.innerWidth >= 1220
-              ? 3
-              : window.innerWidth >= 782
-              ? 1
-              : window.innerWidth >= 668
-              ? 1
-              : 1
-          }
+          slidesPerView={4}
           spaceBetween={2}
           centeredSlides={false}
-          className="mySwiper"
+          navigation
+          className="slider2"
         >
           <div className="flex h-full flex-wrap">
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <HotCard number="1" />
               <HotCard number="2" />
               <HotCard number="3" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <HotCard number="4" />
-              <HotCard number="5" />
-              <HotCard number="6" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <HotCard number="7" />
-              <HotCard number="8" />
-              <HotCard number="9" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <HotCard number="10" />
-              <HotCard number="11" />
-              <HotCard number="12" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <HotCard number="13" />
-              <HotCard number="14" />
-              <HotCard number="15" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <HotCard number="16" />
-              <HotCard number="17" />
-              <HotCard number="18" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <HotCard number="7" />
-              <HotCard number="7" />
-              <HotCard number="7" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <HotCard number="7" />
-              <HotCard number="7" />
-              <HotCard number="7" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <HotCard number="7" />
-              <HotCard number="7" />
-              <HotCard number="7" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <HotCard number="7" />
-              <HotCard number="7" />
-              <HotCard number="7" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <HotCard number="7" />
-              <HotCard number="7" />
-              <HotCard number="7" />
-            </SwiperSlide>
+            </SwiperSlide> */}
+            {data.slice(0, 1).map((item, index) => (
+              <>
+                <SwiperSlide>
+                  <HotCard number={item.id} />
+                  <HotCard number={item.id} />
+                  <HotCard number={item.id} />
+                </SwiperSlide>
+              </>
+            ))}
+            {data.slice(0, 1).map((item, index) => (
+              <>
+                <SwiperSlide>
+                  <HotCard number={item.id} />
+                  <HotCard number={item.id} />
+                  <HotCard number={item.id} />
+                </SwiperSlide>
+              </>
+            ))}
+            {data.slice(0, 1).map((item, index) => (
+              <>
+                <SwiperSlide>
+                  <HotCard number={item.id} />
+                  <HotCard number={item.id} />
+                  <HotCard number={item.id} />
+                </SwiperSlide>
+              </>
+            ))}
+            {data.slice(0, 1).map((item, index) => (
+              <>
+                <SwiperSlide>
+                  <HotCard number={item.id} />
+                  <HotCard number={item.id} />
+                  <HotCard number={item.id} />
+                </SwiperSlide>
+              </>
+            ))}
           </div>
         </Swiper>
       </div>

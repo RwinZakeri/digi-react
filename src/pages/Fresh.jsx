@@ -1,19 +1,26 @@
+import Banner_Fresh from "../components/templates/Fresh_templates/Banner_Fresh";
+import FreshOrder from "../components/templates/Fresh_templates/FreshOrder";
+import FreshProductBar from "../components/templates/Fresh_templates/FreshProductBar";
+import BuyBaseOnCategory from "../components/templates/Home_templates/BuyBaseOnCategory";
+import ProductBar from "../components/templates/Home_templates/ProductBar";
+// data
+import { FreshBuyBaseOnCategoryData } from "../data/BuyBaseOnCategoryData";
+import { OrderData } from "../data/OrderData";
+import { FreshHeadlthProducts } from "../data/OrderData";
+import { FreshDiaryData } from "../data/OrderData";
+import { GoodTasteData } from "../data/OrderData";
 function Fresh() {
   return (
-    <div>
-      <h1>hello fresh</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam porro
-        obcaecati quod quam magnam. Vel recusandae reprehenderit ullam
-        perspiciatis asperiores explicabo quae dolor, excepturi neque sint
-        perferendis eius eaque possimus?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam porro
-        obcaecati quod quam magnam. Vel recusandae reprehenderit ullam
-        perspiciatis asperiores explicabo quae dolor, excepturi neque sint
-        perferendis eius eaque possimus?
-      </p>
+    <div className="w-full">
+      <Banner_Fresh />
+      <FreshProductBar />
+      <BuyBaseOnCategory
+        FreshBuyBaseOnCategoryData={FreshBuyBaseOnCategoryData}
+      />
+      <FreshOrder title={"میوه‌های تازه"} data={OrderData} />
+      <FreshOrder title={"بهداشتی و نظافت"} data={FreshHeadlthProducts} />
+      <FreshOrder title={"لبنیات روز"} data={FreshDiaryData} />
+      <FreshOrder title={"مزه‌های خوشمزه"} data={GoodTasteData} />
     </div>
   );
 }

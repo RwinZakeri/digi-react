@@ -16,10 +16,12 @@ import Choosed from "../components/templates/Home_templates/Choosed";
 // import PorFroushTwo from "../components/templates/Home_templates/PorFroushTwo";
 import Hot from "../components/templates/Home_templates/Hot";
 import Reading from "../components/templates/Home_templates/Reading";
+// data
+import { PorFroushData } from "../data/PorFroushData";
 function Home() {
+ 
   return (
     <div>
-
       <StoryBar />
       <Banner />
       <OptionsBar />
@@ -36,7 +38,7 @@ function Home() {
       <ChessProductTwo />
       <Choosed />
       {/* <PorFroushTwo /> */}
-      <Hot />
+      <Hot data={PorFroushData} />
       <Reading />
     </div>
   );

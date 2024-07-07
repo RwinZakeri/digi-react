@@ -6,7 +6,6 @@ import "swiper/css/pagination";
 import "../../../index.css";
 import { Pagination } from "swiper/modules";
 import ProforoushCard from "../../modules/Home_module/PorFouroshCard";
-
 function PorFroush() {
   return (
     <div className="w-11/12 max-w-[1336px] mx-auto border-2 rounded-xl m-8">
@@ -19,6 +18,8 @@ function PorFroush() {
           slidesPerView={1}
           spaceBetween={2}
           centeredSlides={false}
+          navigation
+          className="slider2"
           breakpoints={{
             668: {
               slidesPerView: 1,
@@ -33,7 +34,6 @@ function PorFroush() {
               slidesPerView: 4,
             },
           }}
-          className="mySwiper"
         >
           {Array.from({ length: 8 }, (_, index) => (
             <SwiperSlide key={index}>

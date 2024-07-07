@@ -23,7 +23,8 @@ function ProductBar() {
           centeredSlides={false}
           spaceBetween={50}
           grabCursor={true}
-          className="mySwiper"
+          navigation
+          className="slider2"
           breakpoints={{
             640: {
               slidesPerView: 3.8,

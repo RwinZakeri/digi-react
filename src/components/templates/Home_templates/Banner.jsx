@@ -25,11 +25,11 @@ function Banner() {
           spaceBetween={30}
           centeredSlides={true}
           navigation
+          className="slider"
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
           }}
-          className="slider"
         >
           {slider.map((item) => (
             <SwiperSlide key={item.id} className="bg-red-500">

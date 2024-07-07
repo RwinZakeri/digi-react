@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function TopHead() {
   return (
-    <div className="w-full h-3/5 2xl:w-11/12 flex mx-auto md:pb-1   ">
+    <div className="w-full h-3/5 2xl:w-11/12 flex mx-auto md:pb-1 z-50  ">
       <div className="lx:w-4/5 w-full h-full flex items-center px-4 ">
         <Link to={"/"}>
           <img

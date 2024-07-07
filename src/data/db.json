@@ -370,6 +370,84 @@
       "text": "دیجی پلاس"
     }
   ],
+  "slider": [
+    {
+      "id": 1,
+      "phone": "https://dkstatics-public.digikala.com/digikala-adservice-banners/30800511bda6f7f1a276a68d632cba5b88cf8008_1709150621.jpg?x-oss-process=image/quality,q_95",
+      "desktop": "https://dkstatics-public.digikala.com/digikala-adservice-banners/5610bce7a5837a3811a82cfede1ec6f79689ce22_1709034018.gif?x-oss-process=image"
+    },
+    {
+      "id": 2,
+      "phone": "https://dkstatics-public.digikala.com/digikala-adservice-banners/63a8c6e68d220841bd1fcad8cd3c62c050e249c2_1708517512.gif?x-oss-process=image",
+      "desktop": "https://dkstatics-public.digikala.com/digikala-adservice-banners/a163d2c904a4a1983bc31d9f0977b2d4be309ae2_1708757632.gif?x-oss-process=image"
+    },
+    {
+      "id": 3,
+      "phone": "https://dkstatics-public.digikala.com/digikala-adservice-banners/7aade5f3231429f805b812ad6caebabd0de7c9f8_1709034182.jpg?x-oss-process=image/quality,q_95",
+      "desktop": "https://dkstatics-public.digikala.com/digikala-adservice-banners/eb554ed55439a05b93c4640ab0270d05e569a69c_1709043402.jpg?x-oss-process=image/quality,q_95"
+    },
+    {
+      "id": 4,
+      "phone": "https://dkstatics-public.digikala.com/digikala-adservice-banners/699642963498e8c0fc9f86898a4d082c64c165ba_1709034112.jpg?x-oss-process=image/quality,q_95",
+      "desktop": "https://dkstatics-public.digikala.com/digikala-adservice-banners/fd6391040b944f17ecc5f8c4b095a5e1816cdfd0_1709034250.jpg?x-oss-process=image/quality,q_95"
+    }
+  ],
+  "FreshSlider": [
+    {
+      "id": 1,
+      "phone": "../../public/images/Fresh_images/Banner/banner1.png",
+      "desktop": "../../public/images/Fresh_images/Banner/banner1.png"
+    },
+    {
+      "id": 2,
+      "phone": "../../public/images/Fresh_images/Banner/banner1.png",
+
+      "desktop": "https://dkstatics-public.digikala.com/digikala-adservice-banners/a163d2c904a4a1983bc31d9f0977b2d4be309ae2_1708757632.gif?x-oss-process=image"
+    },
+    {
+      "id": 3,
+      "phone": "../../public/images/Fresh_images/Banner/banner2.webp",
+      "desktop": "../../public/images/Fresh_images/Banner/banner2.webp"
+    }
+  ],
+  "option": [
+    {
+      "id": 1,
+      "img": "https://dkstatics-public.digikala.com/digikala-bellatrix/d0dc31c892be8cf1408e4e14580b3f479da66bd1_1648897133.png",
+      "text": "دیجی‌کالا جت"
+    },
+    {
+      "id": 2,
+      "img": "https://dkstatics-public.digikala.com/digikala-bellatrix/ac127167132653d14c758748b07824a6a7643a31_1663444619.png",
+      "text": "دریافت وام"
+    },
+    {
+      "id": 3,
+      "img": "https://dkstatics-public.digikala.com/digikala-bellatrix/625d8883f37944f3f0c4af5fe39435600931ab22_1703323478.png",
+      "text": "حراج استایل"
+    },
+    {
+      "id": 4,
+      "img": "https://dkstatics-public.digikala.com/digikala-bellatrix/425c8f55c9bb5ad8e860bdc9f82421ce4fcc18de_1703192837.png",
+      "text": "سوپرمارکت"
+    },
+    {
+      "id": 5,
+      "img": "https://dkstatics-public.digikala.com/digikala-bellatrix/a5e92320101910c6bd31f816e22d35648085af19_1703192218.png",
+      "text": "هر خرید یک شانس"
+    },
+    {
+      "id": 6,
+      "img": "https://dkstatics-public.digikala.com/digikala-bellatrix/e8c1c372a304dc7c6ed600a6d4eb017f2aaea8cd_1697297561.png",
+      "text": "گیم نت"
+    },
+    {
+      "id": 7,
+      "img": "https://dkstatics-public.digikala.com/digikala-bellatrix/78ccd40cbf305fb067de78ddab5be84f69589c8d_1648897009.png",
+      "text": "دیجی پلاس"
+    }
+  ],
+
   "adOne": [
     {
       "id": 1,

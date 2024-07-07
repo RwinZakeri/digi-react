@@ -9,15 +9,22 @@
   src: url("./assets/fonts/IRANYekanWeb.woff");
   src: url("./assets/fonts/IRANYekanWeb.woff2");
 }
+@font-face {
+  font-family: "iranSans";
+  src: url("./assets/fonts/IRANSansWeb-Light.eot");
+  src: url("./assets/fonts/IRANSansWeb-Light.ttf");
+  src: url("./assets/fonts/IRANSansWeb-Light.woff");
+  src: url("./assets/fonts/IRANSansWeb-Light.woff2");
+}
 
 .slider {
   .swiper-button-prev {
     top: 85% !important;
     background-color: white;
     border-radius: 100%;
-    height: 30px;
-    width: 30px;
-    &::after{
+    height: 40px;
+    width: 40px;
+    &::after {
       font-size: 10px;
       font-weight: bold;
       color: black;
@@ -25,12 +32,37 @@
   }
   .swiper-button-next {
     top: 85% !important;
-    right: 5% !important;
+    right: 80px !important;
     background-color: white;
     border-radius: 100%;
-    height: 30px;
-    width: 30px;
-    &::after{
+    height: 40px;
+    width: 40px;
+    &::after {
+      font-size: 10px;
+      font-weight: bold;
+      color: black;
+    }
+  }
+}
+
+.slider2 {
+  .swiper-button-prev {
+    background-color: white;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    &::after {
+      font-size: 10px;
+      font-weight: bold;
+      color: black;
+    }
+  }
+  .swiper-button-next {
+    background-color: white;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    &::after {
       font-size: 10px;
       font-weight: bold;
       color: black;
