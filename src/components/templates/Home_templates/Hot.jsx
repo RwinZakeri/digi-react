@@ -20,20 +20,7 @@ function Hot({ data }) {
       <div className="w-full h-full flex gap-4">
         <Swiper
           slidesPerView={4}
-          breakpoints={{
-            668: {
-              slidesPerView: 1,
-            },
-            782: {
-              slidesPerView: 2,
-            },
-            1220: {
-              slidesPerView: 4,
-            },
-            1600: {
-              slidesPerView: 4,
-            },
-          }}
+          spaceBetween={2}
           centeredSlides={false}
           navigation
           className="slider2"
