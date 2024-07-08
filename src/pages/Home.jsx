@@ -19,7 +19,6 @@ import Reading from "../components/templates/Home_templates/Reading";
 // data
 import { PorFroushData } from "../data/PorFroushData";
 function Home() {
- 
   return (
     <div>
       <StoryBar />
@@ -38,7 +37,7 @@ function Home() {
       <ChessProductTwo />
       <Choosed />
       {/* <PorFroushTwo /> */}
-      <Hot data={PorFroushData} />
+      <Hot data={PorFroushData} text={"داغ ترین چند ساعت گذشته"} />
       <Reading />
     </div>
   );

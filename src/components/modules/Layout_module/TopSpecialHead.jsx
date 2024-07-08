@@ -10,7 +10,7 @@ import { IoIosSearch } from "react-icons/io";
 function TopSpecialHead() {
   return (
     <div className="w-full h-[64px] 2xl:w-[91.5%] mx-auto flex items-center justify-between ">
-      <div className="flex items-center min-w-[200px] h-full">
+      <div className="hidden items-center min-w-[200px] h-full lg:flex">
         <img
           src={HeaderLogo}
           className="w-[45px] h-[45px] max-h-full"
@@ -18,7 +18,7 @@ function TopSpecialHead() {
         />
         <img src={SuperLogo} className="max-h-full" alt="fresh logo" />
       </div>
-      <div className="w-[63%] h-full flex items-center">
+      <div className="w-full lg:w-[63%]  h-full flex items-center">
         <div className="w-full h-[65%] rounded-md bg-[#F0F0F1] flex items-center px-1">
           <span className="px-2 text-[#A1A3A8]">
             <IoIosSearch size={24} />
@@ -26,7 +26,7 @@ function TopSpecialHead() {
           <span className="text-[13px] text-[#A1A3A8]">جستجو</span>
         </div>
       </div>
-      <div className="flex items-center justify-between w-[335px] h-[46px]">
+      <div className="hidden lg:flex items-center justify-between w-[335px] h-[46px]">
         {/* login */}
         <div className="w-[100px] h-[full] p-2 rounded-lg border-[1px] border-[#E0E0E2] relative box-content after:content-[''] after:absolute after:left-[-7%] after:top-2 after:w-[1px] after:h-[25px] after:bg-[#E0E0E2]">
           <div className=" text-[13px] flex gap-1">
