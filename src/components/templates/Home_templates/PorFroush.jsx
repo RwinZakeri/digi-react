@@ -6,6 +6,7 @@ import "swiper/css/pagination";
 import "../../../index.css";
 import { Pagination } from "swiper/modules";
 import ProforoushCard from "../../modules/Home_module/PorFouroshCard";
+
 function PorFroush() {
   return (
     <div className="w-11/12 max-w-[1336px] mx-auto border-2 rounded-xl m-8">
