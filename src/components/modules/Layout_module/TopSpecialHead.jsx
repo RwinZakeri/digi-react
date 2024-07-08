@@ -6,6 +6,7 @@ import ExitHeader from "../../../../public/images/Fresh_images/svg/exitLogo.svg"
 import { FaShoppingBasket } from "react-icons/fa";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosSearch } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 function TopSpecialHead() {
   return (
@@ -31,7 +32,9 @@ function TopSpecialHead() {
         <div className="w-[100px] h-[full] p-2 rounded-lg border-[1px] border-[#E0E0E2] relative box-content after:content-[''] after:absolute after:left-[-7%] after:top-2 after:w-[1px] after:h-[25px] after:bg-[#E0E0E2]">
           <div className=" text-[13px] flex gap-1">
             <img src={ExitHeader} alt="exit logo" />
-            <div className="text-[11px] leading-[25px]">ورود | ثبت‌نام</div>
+            <div className="text-[11px] leading-[25px]">
+              <Link to={"/login"}>ورود | ثبت‌نام</Link>
+            </div>
           </div>
         </div>
         {/* login */}

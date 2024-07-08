@@ -87,11 +87,11 @@ function BottomHead({ visiable }) {
   ];
   return (
     <div
-      className={`w-full 2xl:w-11/12 ${
+      className={`w-full  2xl:w-11/12 ${
         show ? "" : ""
-      } mx-auto bg-red-500 hidden `}
+      } mx-auto h-full hidden lg:flex`}
     >
-      <nav className="w-full mx-auto h-2/5 bg-red-500 hidden lg:flex">
+      <nav className="w-full mx-auto h-2/5 hidden lg:flex">
         {typeof visiable == "object"
           ? visiable.map((element, index) => {
               console.log(headerTitles[element]);

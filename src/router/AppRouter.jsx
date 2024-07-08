@@ -3,6 +3,7 @@ import IncredibleOffers from "../pages/Incredible-Offers";
 import Home from "../pages/Home";
 import Layout from "../components/layout/Layout";
 import Fresh from "../pages/Fresh";
+import Login from "../pages/Login";
 function AppRouter() {
   return (
     <Layout>
@@ -10,6 +11,7 @@ function AppRouter() {
         <Route path="/" element={<Home />} />
         <Route path="/incredible-offers" element={<IncredibleOffers />} />
         <Route path="/fresh" element={<Fresh />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </Layout>
   );

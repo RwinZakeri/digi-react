@@ -34,7 +34,7 @@ function TopHead() {
           <div className="w-full h-full flex items-center justify-center ">
             <img src={exit} alt="logo" className="ml-3" />
             <span className="text-[#3333339a]  text-[12px] 2xl:text-[14px] leading-[40px]">
-              ورود | ثبت نام
+              <Link to={"/login"}>ورود | ثبت نام</Link>
             </span>
           </div>
         </div>
